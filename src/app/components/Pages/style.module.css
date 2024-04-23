@@ -1,0 +1,10 @@
+.not {
+    background-color: rgb(157, 51, 51);
+    margin: 0 auto;
+    height:100vh;
+    color: black;
+    text-align: center;
+    font-size: 150px;
+    padding-top: 180px;
+    font-weight: bold;
+}

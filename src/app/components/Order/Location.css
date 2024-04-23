@@ -1,0 +1,30 @@
+.main {
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    display: flex;
+    gap: 60px;
+    overflow: hidden;
+    padding: 10px var(--dashboard-padding);
+    /* background-image: url(../../asset/images/paying.jpg); */
+}
+  
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2E2D2D;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding: 10px;
+        display: block;
+        margin: 0;
+    }
+    h2 {
+        font-size: 19px;
+    }
+}
+
+

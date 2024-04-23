@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-top: -70px;
+    background-image: url(../../asset/icons/bg.svg); 
+    /* background-image: url("https://source.unsplash.com/random"); */
+    overflow: hidden;
+
+}
+
+.farm {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.farmer,
+.consumer,
+.agent {
+    margin-left: -76px;
+}
+
+.back {
+    width: 12px;
+    margin-left: 140px;
+}
+
+.create {
+    /* background: rgb(208, 119, 42); */
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    text-align: left;
+    color: #000;
+    margin-top: 60px;
+    
+}
+
+.front {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 15px 50px;
+    justify-content: center;
+}
+
+.front img {
+    width: 20px;
+}
+
+.create h4 {
+    margin-left: 55px;
+    margin-bottom: 5px;
+}
+
+.divider {
+    border: 1px solid #B9B5B5;
+    text-align: center;
+    height: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 65%;
+    line-height: 0px;
+}
+
+.divider span {
+    background-color: #fff;
+    padding:  5px 20px;
+    color: #000;
+}
+
+
+.part input {
+    border-radius: 10px;
+    padding: 14px 90px;
+    background-color: #F8D6C1;
+    border: 1px solid#ca9b53;
+    padding-left: 10px;
+}
+
+input {
+    text-align: left;
+}
+
+
+.part label {
+    font-size: 13px;
+    font-weight: 400;
+}
+.already {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 35px;
+}
+.alreadys {
+    color: #000000;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.alreadys span {
+    color:  #09871E;
+    text-decoration: underline;
+}
+
+.already span {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.register {
+    padding: 14px 100px;
+    padding-left: 70px; 
+    margin-left: 30px;
+}
+@media (min-width: 1440px) {
+    .section-container {
+        height: 80vh;
+    }
+    .front {
+        padding-right: 200px;
+    }
+    .part input {
+        padding-right: 230px;
+    }
+    .divider {
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    .section-container {
+        margin: 0;
+        padding: 0;
+        gap: 0;
+        overflow: hidden;
+        height: 70vh;
+        margin-bottom: 0;
+    }
+    .create {
+        margin-top: 10px;
+        width: 500px;
+    }
+    .divider {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .front {
+        padding-right: 200px;
+    }
+    .part input {
+        padding-right: 230px;
+    }
+    .register {
+        margin-left: -0px;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .section-container {
+        display: block;
+        height: 76vh;
+        padding: 0;
+    }
+    .create {
+        justify-content: center;
+        margin-left: 25px;
+        padding: 10px;
+    }
+    .create h4 {
+        text-align: center;
+        margin-top: 1px;
+        font-size: 26px;
+        margin-left: -200px;
+    }
+    .front {
+        margin-left: 20px;
+        padding-right: 100px;
+    }
+    .already {
+       color: #fff; 
+       font-size: 15px;
+       text-align: center;
+       margin-top: 20px;
+    }
+    .divider {
+        width: 60%;
+        margin-left: 20px;
+    }
+    .part {
+        margin-left: 14px;
+    }
+    .part input {
+        padding-right: 130px;
+    }
+    .register {
+        margin-left: 10px;
+        padding-right: 0;
+    }
+}    
+@media (max-width:323px) {
+    .create {
+        justify-content: center;
+        margin-left: 15px;
+        padding: 0;
+    }
+    .create h4 {
+        text-align: center;
+        margin-top: 1px;
+        font-size: 26px;
+        margin-left: -200px;
+    }
+    .front {
+        margin-left: 13px;
+        padding-right: 70px;
+    }
+    .part input {
+        padding-right: 100px;
+    }
+    .divider {
+        width: 50%;
+        margin-left: 20px;
+    }
+
+}
+

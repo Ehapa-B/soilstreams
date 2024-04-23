@@ -1,0 +1,133 @@
+.search {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+    gap: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.search input {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: transparent;
+    text-align: left;
+    outline: none;  
+}
+
+.search img {
+    position: absolute;
+    margin-right: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sh {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.section {
+    background-color: #fff;  
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+  
+.products {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    color: #000000;
+    text-align: left;
+}
+  
+.products .list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5em;
+}
+
+.product-details {
+    width: 100%;
+    text-align: left;
+    margin-top: -40px;
+}
+  
+.products .list .item {
+    height: auto;
+    max-width: 350px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+  
+.cart {
+    display: flex; 
+    justify-content: space-between;  
+}
+.products .list .item img {
+    width: 289px;
+    height: 289px;
+    flex-shrink: 0;
+}
+  
+.products .list .item .title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+}
+  
+.products .price,
+.state {
+    font-weight: 500;
+}
+
+.description {
+    font-size: 15px;
+    color: grey;
+}
+
+
+@media (max-width: 1028px) {
+    .search {
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+        
+    }
+    .search img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .product {
+        padding: 0;
+    }
+    .products{
+        padding-left: 0;
+        margin-left: -10px;
+        margin-right: 22px;
+    }
+    .search {
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+        margin-left: 10px;
+    }
+    .search input  {
+        padding: 5px;
+        width: 140px;
+        margin-left: 30px;
+    }
+    .search img {
+        display: none;
+    }
+
+}
+

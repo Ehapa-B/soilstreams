@@ -1,0 +1,160 @@
+.profile {
+    padding: 10px var(--dashboard-padding);
+    font-family: "Poppins", sans-serif;
+    color: #2E2D2D;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    gap: 130px;
+    margin-top: 0;
+}
+
+.farm input {
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 140px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #F8D6C1;
+    border: 1px solid #09871E;
+}
+
+.farm label {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.victor {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+.victor img {
+    width: 490px;
+    height: 270px;
+}
+
+.victor p {
+    font-size: 12px;
+}
+
+.recent {
+    display: flex;
+    gap: 30px;
+}
+
+.recents {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.register {
+    margin-left: 410px;
+}
+
+.victor h6 {
+    color: #000000;
+    font-weight: 400;
+}
+
+@media (max-width: 1028px) {
+    .container {
+        padding: 0;
+        gap: 10px;
+    }
+    .recent {
+        gap: 10px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        display: block;
+        gap: 0;
+    }
+    h2 {
+        text-align: center;
+    }
+    .recent {
+        display: block;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 95px;
+    }
+    .victor img {
+        width: 400px;
+    }
+    
+    .farm {
+        margin-left: 55px;
+    }
+    .register {
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 475px) {
+    .profile {
+        padding: 10px;
+    }
+    .container {
+        padding: 10px;
+        display: block;
+        gap: 0;
+    }
+
+    .recent {
+        justify-content: center;
+        gap: 0;
+        margin-left: 93px;
+    }
+
+    .register {
+        margin-left: 125px;
+    }
+    
+    .victor img {
+        width: 200px;
+    }
+    .farm {
+        margin-left: 55px;
+    }
+    .farm input {
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 378px) {
+    .recent {
+        display: block;
+        justify-content: center;
+        gap: 0;
+        margin-left: 73px;
+    }
+
+    .register {
+        margin-left: 105px;
+    }
+    
+    .farm {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 325px) {
+    .recent {
+        margin-left: 43px;
+    }
+
+    .register {
+        margin-left: 75px;
+    }
+
+    .farm {
+        margin-left: 10px;
+    }
+}

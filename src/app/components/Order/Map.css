@@ -1,0 +1,46 @@
+.puts {
+    display: flex;
+    gap: 140px;
+    color: #fff;
+    margin-left: 200px;
+}
+
+.text {
+    display: flex;
+    padding-right: 90px;
+    flex-direction: column;
+}
+
+.text label {
+    font-weight: bold;
+}
+.text input {
+    background-color: #F8D6C1;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 12px 60px;
+    padding-left: 10px;
+}
+
+@media (max-width: 500px) {
+    .puts {
+        padding: 10px;
+        display: block;
+        gap: 10px;
+    }
+    .text {  
+        width: 200px;
+        padding-right: 10px; 
+        margin-left: -170px;
+    }
+    .text input {
+        padding: 12px 10px;
+    }
+    .map {
+        display: block;
+        margin-top: 30px;
+        margin-left: -10px;
+        width: 200px;
+    }
+    
+}

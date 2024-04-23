@@ -1,0 +1,37 @@
+.containers {
+    padding: 10px var(--dashboard-padding);
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    overflow: hidden;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.farm input {
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 240px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: #EBB360;
+    border: 1px solid #09871E;
+}
+
+.farm label {
+    font-size: 13px;
+    font-weight: 400;
+}
+.photo form {
+    background-color: rgb(231, 183, 70);
+    padding: 40px;
+    width: 200px;
+    height: 25vh;
+    border: 5px solid #36693a00;
+}
+.photo input {
+    border: 5px solid #0000;
+    
+}

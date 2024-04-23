@@ -1,0 +1,148 @@
+.prod {
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+  
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+}
+  
+.pro {
+    padding: 10px var(--dashboard-padding);
+    display: flex;
+    color: #2E2D2D;
+    justify-content: space-between;
+}
+  
+.list {
+    border: 1px solid #CFCFCF;
+    width: 60%;
+    color: #000;
+}
+
+.h2 {
+    margin-left: 20px;
+    margin-top: 4px;
+    color: #7A7979;
+}
+
+.add {
+    width: 1px;
+    display: flex;
+    cursor: pointer;
+}
+
+.add p {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: -10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 30px;
+    border: 1px solid #CFCFCF;
+}
+
+.item img {
+    width: 240px;
+    height: auto;
+    margin-right: 20px;
+} 
+
+.product-details {
+    flex: 1;
+}
+  
+.title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+.description {
+    margin-bottom: 5px;
+}
+  
+.text {
+    font-size: 16px;
+}
+  
+.summary {
+    margin-top: 10px;
+}
+  
+.total {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.delivery, .cost {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.register {
+    margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+    .item {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pro {
+        display: block;
+    }
+    .list {
+        border: none;
+    }
+    .item {
+        width: 400px;
+    }
+}
+@media (max-width: 500px) {
+    .pro {
+        display: block;
+        padding: 10px;
+        border: none;  
+    }
+
+    .item {
+        display: block;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 0px;
+        width: 300px;
+        justify-content: center;
+    }
+    .list {
+        border: none;
+    }
+    .product-details {
+        text-align: center;
+    }
+    .add {
+        margin-left: 110px;
+    }
+    .summary {
+        text-align: center;
+    }
+    .item img {
+        width: 294px;
+        height: auto;
+        margin-right: 20px;
+        justify-content: center;
+    } 
+
+}
+  

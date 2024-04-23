@@ -1,0 +1,69 @@
+.test {
+    background-color: #e5f6e5;
+    display: flex;
+    overflow: hidden;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    color: #2E2D2D;
+    text-align: left;
+    margin-top: 10px;
+    gap: 30px;
+    padding: 50px;
+    margin-left: 100px;
+    font-family: "Poppins", sans-serif;
+}
+
+h5 {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+.register {
+    font-size: 16px;
+}
+
+.image img {
+    width: 500px;
+    border-radius: 3px;
+    margin-left: 180px;
+}
+@media (max-width: 1024px) {
+    .hero {
+        padding: 10px;
+        margin-left: 59px;
+    }
+    .image img {
+        margin-top: 10px;
+        margin-left: 62px;
+    } 
+}
+
+@media (max-width: 768px) {
+    .test {
+        height: 70vh;
+    }
+    .hero {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-inline: auto;
+        padding: 0;
+    }
+
+    h1 {
+        padding-top: 10px;
+        font-size: 40px;
+    }
+
+    .image img {
+        margin-top: 30px;
+        width: 300px;
+        margin-left: 10px;
+    }  
+} 
+

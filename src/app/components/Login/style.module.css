@@ -1,0 +1,154 @@
+.section-container {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    /* background-image: url("https://source.unsplash.com/random"); */
+    overflow: hidden;
+}
+
+.streams-container {
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    text-align: left;
+    color: #fff;
+    width: 400px;
+    margin-left: 250px;
+}
+
+.streams-container h1 {
+    font-size: 66px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 10px;
+    color: #A2A1A1;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.create {
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    text-align: left;
+    color: #000;
+    width: 700px;
+    margin-top: 10px;
+}
+
+.front {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 15px 50px;
+    justify-content: center;
+}
+
+.front img {
+    width: 20px;
+}
+
+.create h4 {
+    color: #2E2D2D;
+    margin-left: 55px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.divider {
+    border: 1px solid #B9B5B5;
+    text-align: center;
+    height: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+    line-height: 0px;
+}
+
+.divider span {
+    background-color: #fff;
+    padding:  5px 20px;
+    color: #000;
+}
+
+
+.part input {
+    border-radius: 10px;
+    padding: 10px 50px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid #09871E;
+}
+
+input {
+    text-align: left;
+}
+
+.mid {
+    margin-left: 30px;
+}
+.part label {
+    font-size: 13px;
+    font-weight: 400;
+}
+.already {
+    color: #000000;
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.already span {
+    color: #09871E;
+}
+
+.mid {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .section-container{
+        padding: 0;
+    }
+
+    .streams-container{
+        margin-left: 40px;
+    }
+
+    .divider {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 500px) {
+    .section-container {
+        display: block;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .streams-container{
+        display: none;
+    }
+
+    .divider {
+        margin-left: 70px;
+    }
+
+    .part {
+        margin-left: 10px;
+    }
+
+    .mid {
+        margin-left: 0;
+    }
+    .create{
+        display: block;
+        width: 320px;
+    }
+
+}

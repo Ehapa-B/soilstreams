@@ -1,0 +1,38 @@
+.start {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+.term,
+.terms {
+    padding: 13px var(--app-block-padding);
+}
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.terms h4 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p{
+   font-size: 14px;
+}
+
+ul li,
+ol li {
+    margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+    .terms, .term {
+        padding: 10px;
+        overflow: hidden;
+    }
+    ul li,
+    ol li {
+    margin-left: 20px;
+}
+}

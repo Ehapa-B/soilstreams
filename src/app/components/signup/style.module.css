@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-container {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -100px;
+    background-image: url(../../asset/icons/bg.svg);
+    /* background-image: url("https://source.unsplash.com/random"); */
+    overflow: hidden;
+
+}
+
+.streams-container {
+    background: rgba(31, 106, 43, 1);
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    text-align: left;
+    color: #fff;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 300px;
+    list-style-type: none;
+}
+
+.streams-container h2 {
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.streams-container p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+
+.farmer,
+.consumer,
+.agent {
+    margin-left: 76px;
+}
+
+.back {
+    width: 12px;
+    margin-left: 140px;
+}
+
+.front img {
+    width: 20px;
+}
+
+.part input {
+    border-radius: 10px;
+    padding: 10px 50px;
+    background-color: #EBB360;
+    border: 1px solid #9d7e4f;
+    padding-left: 10px;
+}
+
+input {
+    text-align: left;
+}
+
+.part label {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.header h2 {
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+    .section-container {
+        height: 80vh;
+    }
+}
+@media (max-width: 1024px) {
+    .section-container {
+        margin: 0;
+        padding: 0;
+        gap: 0;
+        overflow: hidden;
+        height: 58vh;
+        margin-bottom: 0;
+        margin-left: 200px;
+    }
+    .streams-container {
+        padding: 0px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    
+    .divider {
+        width: 50%;
+        margin-left: 40px;
+    }
+    
+}
+@media (max-width:768px) {
+    .section-container {
+        margin-left: 0;
+    }
+}
+@media (max-width:500px) {
+    .section-container {
+        display: block;
+        height: 53vh;
+    }
+    .streams-container {
+        padding-left: 10px;
+        margin-left: 30px;
+        width: 350px;
+        align-items: center;
+    }
+    .already {
+       color: #fff; 
+       font-size: 15px;
+       text-align: center;
+       margin-top: 20px;
+    
+    }
+    .part {
+        margin-left: 14px;
+    }
+    .register {
+        margin-left: 10px;
+    }
+}
+@media (max-width:378px) {
+    .streams-container {
+        padding-left: 10px;
+        margin-left: 20px;
+        width: 330px;
+    }
+}
+
+@media (max-width:328px) {
+    .streams-container {
+         width: 280px;
+    }
+}

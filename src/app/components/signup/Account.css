@@ -1,0 +1,133 @@
+.account {
+    margin-left: 176px;
+    overflow: hidden;
+}
+.account-btn {
+    display: flex;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-left: 10px;
+    gap: 30px;
+    color: #000000;
+    margin-top: 20px;
+    background-color: #FFF;
+}
+.account-btn:hover {
+    background-color: #E7C175;
+    color: #fff;
+}
+.options-list {
+    margin-bottom: 50px;
+    margin-left: -38px;
+    list-style: none;
+}
+.account-btn img {
+    width: 20px;
+}
+li a{
+    list-style: none;
+}
+
+.secondary, .second, .agent {
+    background-color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 3px;
+    color: #000;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 184px;
+}
+
+.second {
+    padding-right: 160px;
+}
+
+.agent {
+    padding-right: 190px;
+}
+
+.agent:hover{
+    background-color: #E7C175;
+    color: #fff;
+}
+
+.secondary:hover{
+    background-color: #E7C175;
+    color: #fff;
+}
+
+.second:hover{
+    background-color: #E7C175;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .account {
+        margin-left: 220px;
+    }
+}    
+@media (max-width: 769px) {
+    .account {
+        margin-left: 210px;
+    }
+    .options-list {
+        padding: 19px;
+    }
+    .account-btn {
+        gap: 20px;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+    .secondary {
+        margin-left: 22px;
+        padding-right: 181px;
+    }
+    .second {
+        margin-left: 22px;
+        padding-right: 160px;
+    }
+    .agent {
+        margin-left: 22px;
+        padding-right: 190px;
+    }
+}
+@media (max-width: 500px) {
+    .account {
+        margin-left: 20px;
+    }
+    .options-list {
+        padding: 19px;
+    }
+    .account-btn {
+        gap: 20px;
+        margin-left: 20px;
+        padding-right: -10px;
+    }
+    .secondary {
+        margin-left: 22px;
+        padding-right: 181px;
+    }
+    .second {
+        margin-left: 22px;
+        padding-right: 160px;
+    }
+    .agent {
+        margin-left: 22px;
+        padding-right: 189px;
+    }
+}
+@media (max-width: 327px) {
+    .account {
+        margin-left: 10px;
+    }
+    
+    .account-btn {
+        margin-left: 0px;
+    }
+    .secondary, .second, .agent {
+        margin-left: 0px;
+
+    }
+}
+
