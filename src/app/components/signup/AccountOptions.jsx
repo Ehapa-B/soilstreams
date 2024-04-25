@@ -37,7 +37,7 @@ export const AccountOptions = ({ showMenu }) => {
           <br />
           <br />
           <li>
-            <a className='btn agent' href='/agent'>Agents</a>
+            <a className='btn agent' href='/agents'>Agents</a>
           </li>
         </ul>
       )}

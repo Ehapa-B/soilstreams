@@ -47,13 +47,13 @@ const HeaderNavigation = (props) => {
         <a href="/home">Home</a>
       </li>
       <li>
-        <a href="/profile">About</a>
+        <a href="/profile">Farmer</a>
       </li>
       <li> 
         <a href="/product">Products</a>
       </li>
       <li> 
-        <a href="/order">Order</a>
+        <a href="/agent">Agent</a>
       </li>
       <li className='active'>
        <a href='/login'>

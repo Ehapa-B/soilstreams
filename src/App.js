@@ -12,6 +12,7 @@ import { ProfilePage } from './app/components/Profile';
 import { FarmerPage} from './app/components/Farmer';
 import { OrderPage } from './app/components/Order';
 import { ConsumerPage } from './app/components/Consumer';
+import { AgentPage } from './app/components/Agents';
 import { TermsPage } from './app/components/Terms';
 import { UploadProduct } from './app/components/Upload';
 import { NotFound } from './app/components/Pages/NotFound';
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
   {
     path: 'agent',
     element: <AgentProfilePage />
+  },
+  {
+    path: 'agents',
+    element: <AgentPage />
   },
   {
     path: 'order',
