@@ -177,7 +177,7 @@ a span {
 }
 @media (max-width: 1026px) {
     .image, .overlay {
-        height: 105vh;
+        height: 115vh;
         overflow: hidden;
     }
     .section-container {
@@ -221,7 +221,7 @@ a span {
 }
 @media (max-width: 500px) {
     .image, .overlay {
-        height: 120vh;
+        height: 130vh;
         overflow: hidden;
     }
     .section-container {

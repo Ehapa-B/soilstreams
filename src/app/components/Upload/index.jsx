@@ -2,6 +2,8 @@ import { ProductHeader } from "../ProductHeader/ProductHeader"
 import style from './style.module.css'
 import { CustomButton } from "../Button"
 import { Footer } from "../Footer"
+import { Items } from './data';
+
 
 export const UploadProduct = () => {
     return (
@@ -31,12 +33,15 @@ export const UploadProduct = () => {
                <input type="file" placeholder="Upload Photo"  required/>
             </form>
                <br />
-              <CustomButton onClick={()=>{}} type='register'>
+              <CustomButton className={style.post} onClick={()=>{}} type='register'>
                 Post
              </CustomButton>
             </div>
+
             </div>
+
             </div>
+            <br />
             <Footer />
         </section>
     )

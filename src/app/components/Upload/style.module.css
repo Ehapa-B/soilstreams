@@ -3,6 +3,7 @@
     font-family: "Poppins", sans-serif;
     color: #000000;
     overflow: hidden;
+    animation: imageTransition 5s infinite;
 }
 
 .container h2 {
@@ -32,6 +33,90 @@
     border: 5px solid #36693a00;
 }
 .photo input {
-    border: 5px solid #0000;
-    
+    border: 5px solid #0000;   
+}
+
+/* .container{
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1;
+    animation: imageTransition 5s infinite;
+    position: relative;
+} 
+  
+.container img {
+    width: 10%;
+    height: auto;
+}
+
+@keyframes imageTransition {
+    0% {
+      background-image: url('../../asset/images/berry.svg');
+    }
+    25% {
+      background-image: url('../../asset/icons/rice.jpg');
+    }
+    50% {
+      background-image: url('../../asset/icons/carrot.svg');
+    }
+    75% {
+      background-image: url('../../asset/images/corn.svg');
+    }
+    100% {
+      background-image: url('../../asset/images/banana.svg');
+    }
+  } */
+@media (max-width:1024px) {
+    .farm input {
+        padding-right: 400px;
+    }
+
+}
+
+@media (max-width:769px) {
+    .photo form {
+        margin-left: 90px;
+    }
+
+    .post {
+        margin-left: 90px;
+    }
+}
+@media (max-width:500px) {
+    .containers {
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .farm input {
+        padding-right: 150px;
+    }
+
+    .photo form {
+        margin-left: 40px;
+    }
+
+    .post {
+        margin-left: 40px;
+    }
+}
+@media (max-width:330px) {
+    .containers {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .farm input {
+        padding-right: 100px;
+    }
+
+    .photo form {
+        margin-left: 40px;
+    }
+
+    .post {
+        margin-left: 40px;
+    }
 }

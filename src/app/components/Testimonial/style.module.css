@@ -75,7 +75,7 @@
 @media (max-width: 427px) {
     .section, .testimony {
         display: block;
-        height: 115vh;
+        height: 124vh;
     }
 
     .testimony {
