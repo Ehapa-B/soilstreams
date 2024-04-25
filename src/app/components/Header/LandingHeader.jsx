@@ -55,9 +55,6 @@ const HeaderNavigation = (props) => {
       <li> 
         <a href="/order">Order</a>
       </li>
-      <li> 
-      <a href="/agents">Agent</a>
-      </li>
       <li className='active'>
        <a href='/login'>
          <CustomButton  className='register' onClick={()=> ('signup')} type='read'>

@@ -55,7 +55,7 @@ const HeaderNavigation = (props) => {
         <a href="/order">Order</a>
       </li>
       <li> 
-         <a href="/success">Success</a>
+         <a href="/agents">Agent</a>
       </li>   
     </ul>
   )

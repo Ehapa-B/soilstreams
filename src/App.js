@@ -20,6 +20,9 @@ import { AgentProfilePage } from './app/components/AgentProfile';
 import { AgentUpload } from './app/components/AgentUpload/AgentUpload';
 import { CustomerRequest } from './app/components/CustomerRequest/CustomerRequest';
 import { CheckOutPage } from './app/components/CheckOut';
+import { CookiesPage } from './app/components/Cookies';
+import { PrivacyPage } from './app/components/Privacy';
+import { FaqPage } from './app/components/FAQ';
 
 const router = createBrowserRouter([
   {
@@ -41,10 +44,6 @@ const router = createBrowserRouter([
   {
     path: 'signup',
     element: <SignUpPage />
-  },
-  {
-    path: 'privacy',
-    element: <TermsPage />
   },
   {
     path: '*',
@@ -102,6 +101,18 @@ const router = createBrowserRouter([
   {
     path: 'cart',
     element: <CartPage />
+  },
+  {
+    path: 'privacy',
+    element: <PrivacyPage />
+  },
+  {
+    path: 'cookies',
+    element: <CookiesPage />
+  },
+  {
+    path: 'faq',
+    element: <FaqPage />
   },
 ])
 

@@ -38,6 +38,7 @@
     flex-direction: column;
     margin-top: 0;
     padding-top: o;
+    text-align: left;
 }
 
 @media (min-width: 1440px) {
@@ -99,7 +100,7 @@
         display: none;
     }
     .about h2 {
-        padding-top: 30px;
+        padding-top: 10px;
         margin: 0;
         text-align: center;
     }

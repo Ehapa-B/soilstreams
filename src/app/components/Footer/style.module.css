@@ -87,22 +87,22 @@
 
 .app {
     position: fixed;
-    background-color: #09871E;
-    padding: 20px;
+    padding: 10px;
     bottom: 10px;
     right: 20px;
     font-size: 20px;
-    border-radius: 60%;
+    
 }
 
-.app a {
-    color: #fff;
-    font-weight: 600;
+.app .svg {
+    background-color: #09871E;
+    font-size: 60px;
     text-decoration: none;
+    top: -40px;
+    border-radius: 40%;
 }
 
-.menuItem img {
-    margin-top: -60px;
+.menuItem img {  
     width: 130px;
 }
 
@@ -120,32 +120,38 @@
     .flex {
         justify-content: center;
         text-align: left;
+        margin-top: -40px;
     }
     .legal-urls {
         display: none;
     }
-    .gototop {
-        display: none;
-    }
+
     .tech {
         display: block;
         margin-top: 60px;
         text-align: center;
     }
     .copyright {
-        margin-top: -240px;
-        margin-left: -60px;
+        margin-top: -245px;
+        margin-left: -40px;
     }
     .icons {
         margin-left: 19.9rem;
     }
 
 }
+@media (max-width: 768px) {
+    .copyright {
+        margin-top: -245px;
+        margin-left: -40px;
+    }
+}
 @media (min-width: 1440px) {
     .tech {
         display: none;
-    }
+    }   
 }
+
 @media (min-width: 1024px) {
     .flex, .menuItem{
         gap: 30px;
@@ -171,31 +177,42 @@
         text-align: center;
     }
     .icons {
-        margin-left: 3.3rem;
+        margin-left: 4.5rem;
     }
     .copyright {
         margin-top: 0;
-        margin-left: -180px;
+        margin-left: -175px;
+    }
+}
+
+@media (max-width: 390px) {
+    .flex {
+        margin-top: 20px;
+        text-align: left;
+    }
+    .icons {
+        margin-left: 3rem;
+    }
+    .copyright {
+        margin-left: -140px;
     }
 }
 
 @media (max-width: 327px)  {
     .icons {
-        margin-left: 5.9rem;
-    }
-    .gototop {
-        display: none;
+        margin-left: 1rem;
     }
     .copyright {
         margin-top: 0;
-        margin-left: -60px;
+        margin-left: -120px;
+    }
+
+    .app .svg {
+        margin-bottom: 40px;
     }
 
 }
 @media (min-width: 768px) {
-    .gototop {
-        display: none;
-    }
     .icons {
         margin-left: 15rem;
     } 

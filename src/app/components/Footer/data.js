@@ -37,13 +37,13 @@ export const usefulLinkMenu = [
     },
     {
         name:"Cookies",
-        url: "/terms"
+        url: "/cookies"
     },
 ]
 export const QuickLinkMenu = [
     {
         name:"FAQs",
-        url: "/*"
+        url: "/faq"
     },
     {
         name:"Delivery Services",

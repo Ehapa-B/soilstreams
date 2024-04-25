@@ -3,13 +3,13 @@ import style from './style.module.css'
 import  GoogleImage from '../../asset/icons/google.svg'
 import { Footer } from "../Footer"
 import { Testimony } from "../Testimonial"
-import { ProductHeader } from "../ProductHeader/ProductHeader"
+import { AgentHeader } from "../AgentHeader/AgentHeader"
 
 
 export const LoginPage = () => {
     return (
         <div>
-        <ProductHeader />
+        <AgentHeader />
           <section className={style['section-container']}>
               <br />
               <br />
@@ -46,9 +46,11 @@ export const LoginPage = () => {
                    <br />
                    <br />
                    <br />
-                   <CustomButton className={style.mid} onClick={()=>{}} type='register'>
+                   <a href="/product">
+                     <CustomButton className={style.mid} onClick={()=>{}} type='register'>
                       Login
                    </CustomButton>
+                   </a>
                    <br />
                     <a className={style.already} href="/signup">Don't have an account? <span>Signup</span> </a>
                     

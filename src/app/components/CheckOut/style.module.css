@@ -1,0 +1,29 @@
+.check {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+}
+
+.out {
+    background-color: #EFD6C6;
+    width: 100%;
+    font-size: 20px;
+}
+ 
+.out h3 {
+    padding-top: 10px;
+}
+
+hr {
+    width: 110%;
+}
+
+p {
+    text-align: center;
+}
+
+.pay span {
+    color: #004402;
+}

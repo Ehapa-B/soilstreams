@@ -146,12 +146,12 @@ a {
 }
 
 a span {
-    color: green;
+    color: goldenrod;
     text-decoration: underline;
 }
 @media (min-width: 1440px) {
     .image, .overlay {
-        height: 93vh;
+        height: 105vh;
         overflow: hidden;
     }
     .section-container {
@@ -177,7 +177,7 @@ a span {
 }
 @media (max-width: 1026px) {
     .image, .overlay {
-        height: 93vh;
+        height: 105vh;
         overflow: hidden;
     }
     .section-container {
@@ -203,9 +203,6 @@ a span {
 }
 
 @media (max-width: 768px) {
-    .image, .overlay {
-        height: 93vh;
-    }
     .section-container {
         gap: 20px;
     }
@@ -213,6 +210,9 @@ a span {
         padding: 20px ; 
         margin-top: 30px;
         margin-left: -130px;
+    }
+    .image, .overlay {
+        height: 105vh;
     }
     .space {
         margin-left: 100px;
@@ -266,6 +266,9 @@ a span {
     }
 }
 @media (max-width: 428px) {
+    .image, .overlay {
+        height: 130vh;
+    }
     .divider {
         width: 68%;
         margin-left: 20px;
@@ -278,7 +281,7 @@ a span {
         margin-left: 39px;
     }
     .scan {
-        margin-top: -220px;
+        margin-top: -280px;
     }
     .scan img {
         margin-top: 0px;
@@ -295,17 +298,21 @@ a span {
         width: 75%;
         margin-left: 20px;
     }
+    .scan {
+        margin-top: -290px;
+    }
 }
 @media (max-width: 358px)  {
-    .image, .overlay {
-        height: 128vh;
+
+    .scan {
+        margin-top: -280px;
     }
     .create {
         margin-left: 20px;
         overflow: hidden;
     }
     .space {
-        margin-top: 1px;
+        margin-top: -50px;
         margin-left: 60px;
     }
     .rem {

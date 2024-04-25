@@ -9,11 +9,10 @@ export const Footer = () => {
         <footer className={style.footer}>
            <div className={style.menu}>
              <div className={style.menuItem}>
-             <a href='/home'>  <img src={White} /></a>
-                
+                <a href='/home'>  <img src={White} /></a>        
                  <div className={style.flex}>
-                     <Menu title="" options={aboutMenu} />
-                     <Menu title="Useful Links" options={usefulLinkMenu} />
+                     <Menu title="Useful Links" options={aboutMenu} />
+                     <Menu title="" options={usefulLinkMenu} />
                    </div>
                </div>
                <div className={style.icons}>

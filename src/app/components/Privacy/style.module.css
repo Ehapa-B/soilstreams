@@ -23,36 +23,27 @@ h3 {
    text-align: left;
 }
 
-ul li,
-ol li {
-    margin-left: 30px;
-    text-align: left;
-}
 
 .check {
     color: #000000;
-    margin-left: 10px;
     padding: 1px var(--app-block-padding);
 }
 @media (max-width: 768px) {
     .term h4 {
         text-align: center;
+        margin-bottom: 5px;
     }
     .term {
-        padding: 10px;
+        padding: 13px;
         overflow: hidden;
     }
-    ul li,
-    ol li {
-       margin-left: 20px;
+    .check {
+        margin-left: -13px;
     }
 }
 
 @media (max-width: 500px) {
     .term h4 {
         text-align: center;
-    }
-    .check {
-        margin-left: 10px;
     }
 }
