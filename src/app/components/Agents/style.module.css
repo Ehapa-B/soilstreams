@@ -212,7 +212,7 @@ a span {
         margin-left: -130px;
     }
     .image, .overlay {
-        height: 105vh;
+        height: 115vh;
     }
     .space {
         margin-left: 100px;
@@ -267,7 +267,7 @@ a span {
 }
 @media (max-width: 428px) {
     .image, .overlay {
-        height: 130vh;
+        height: 135vh;
     }
     .divider {
         width: 68%;

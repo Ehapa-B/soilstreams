@@ -11,7 +11,8 @@
     border-radius: 5px;
     background: transparent;
     text-align: left;
-    outline: none;  
+    outline: none; 
+    border: 1px solid #000000; 
 }
 
 .search img {
@@ -83,11 +84,13 @@
 .products .price,
 .state {
     font-weight: 500;
+    text-align: left;
 }
 
 .description {
     font-size: 15px;
     color: grey;
+    text-align: left;
 }
 
 

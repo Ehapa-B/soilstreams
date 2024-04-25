@@ -116,7 +116,7 @@ input {
 @media (max-width:500px) {
     .section-container {
         display: block;
-        height: 58vh;
+        height: 73vh;
     }
     .streams-container {
         padding-left: 10px;

@@ -65,7 +65,7 @@ export const ProfilePage = () => {
               <br/>
               <br />
               <a href='/product'>
-              <CustomButton  className='register' onClick={()=> ('signup')} type='read'>
+              <CustomButton  className={style.register} onClick={()=> ('signup')} type='read'>
                  View All
               </CustomButton>
              </a>

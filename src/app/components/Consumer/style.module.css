@@ -128,7 +128,7 @@ input {
 }
 @media (min-width: 1440px) {
     .section-container {
-        height: 80vh;
+        height: 85vh;
     }
     .front {
         padding-right: 200px;
@@ -147,7 +147,7 @@ input {
         padding: 0;
         gap: 0;
         overflow: hidden;
-        height: 70vh;
+        height: 75vh;
         margin-bottom: 0;
     }
     .create {
@@ -173,7 +173,7 @@ input {
 @media (max-width:500px) {
     .section-container {
         display: block;
-        height: 76vh;
+        height: 86vh;
         padding: 0;
     }
     .create {

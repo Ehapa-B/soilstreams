@@ -135,7 +135,7 @@ h6 {
 
 @media (min-width: 1440px) {
     .image, .overlay {
-        height: 97vh;
+        height: 100vh;
         overflow: hidden;
     }
     .section-container {
@@ -169,7 +169,7 @@ h6 {
 }
 @media (max-width: 1026px) {
     .image, .overlay {
-        height: 95vh;
+        height: 100vh;
         overflow: hidden;
     }
     .section-container {
@@ -198,7 +198,7 @@ h6 {
         gap: 20px;
     }
     .image, .overlay {
-        height: 94vh;
+        height: 98vh;
     }
     .create {
         padding: 20px ; 
@@ -212,7 +212,7 @@ h6 {
 }
 @media (max-width: 500px) {
     .image, .overlay {
-        height: 120vh;
+        height: 128vh;
         overflow: hidden;
         background-repeat: repeat;
     }
@@ -286,7 +286,7 @@ h6 {
 
 @media (max-width: 376px) {
     .image, .overlay {
-        height: 125vh;
+        height: 128vh;
     }
     .create {
         margin-left: 38px;
