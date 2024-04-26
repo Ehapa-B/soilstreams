@@ -198,7 +198,7 @@ h6 {
         gap: 20px;
     }
     .image, .overlay {
-        height: 98vh;
+        height: 140vh;
     }
     .create {
         padding: 20px ; 
@@ -212,7 +212,7 @@ h6 {
 }
 @media (max-width: 500px) {
     .image, .overlay {
-        height: 138vh;
+        height: 140vh;
         overflow: hidden;
         background-repeat: repeat;
     }
@@ -285,9 +285,6 @@ h6 {
 }
 
 @media (max-width: 376px) {
-    .image, .overlay {
-        height: 138vh;
-    }
     .create {
         margin-left: 38px;
     }

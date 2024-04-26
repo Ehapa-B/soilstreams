@@ -78,7 +78,7 @@ export const AgentProfilePage = () => {
               <br />
               <br />
               <a href='/farms'>
-               <CustomButton  className='register' onClick={()=> ('')} type='read'>
+               <CustomButton  className={style.register} onClick={()=> ('')} type='read'>
                  Add Farm
                </CustomButton>
              </a>

@@ -1,7 +1,7 @@
 
 export const aboutMenu = [
     {
-        name:"About",
+        name:"Farmers",
         url: "/about"
     },
     {

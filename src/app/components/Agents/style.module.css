@@ -151,7 +151,7 @@ a span {
 }
 @media (min-width: 1440px) {
     .image, .overlay {
-        height: 105vh;
+        height: 125vh;
         overflow: hidden;
     }
     .section-container {
@@ -177,7 +177,7 @@ a span {
 }
 @media (max-width: 1026px) {
     .image, .overlay {
-        height: 115vh;
+        height: 125vh;
         overflow: hidden;
     }
     .section-container {
@@ -212,7 +212,7 @@ a span {
         margin-left: -130px;
     }
     .image, .overlay {
-        height: 125vh;
+        height: 145vh;
     }
     .space {
         margin-left: 100px;
@@ -221,7 +221,7 @@ a span {
 }
 @media (max-width: 500px) {
     .image, .overlay {
-        height: 130vh;
+        height: 150vh;
         overflow: hidden;
     }
     .section-container {
@@ -267,7 +267,7 @@ a span {
 }
 @media (max-width: 428px) {
     .image, .overlay {
-        height: 139vh;
+        height: 150vh;
     }
     .divider {
         width: 68%;
