@@ -44,7 +44,7 @@ h5 {
 
 @media (max-width: 768px) {
     .test {
-        height: 75vh;
+        height: 100vh;
     }
     .hero {
         display: block;

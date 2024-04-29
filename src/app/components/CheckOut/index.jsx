@@ -29,7 +29,7 @@ export const CheckOutPage = () => {
                  <br />
               </div>
               <div className={style.pay}>
-                <h5>Amount paid  <span>#420,000</span> 
+                <h5>Amount paid  <span>#40,000</span> 
                 </h5>
                 <br />
                 
