@@ -42,9 +42,11 @@ h2 {
 
 }
 .list h2 {
+    margin-left: 10px;
     color: goldenrod;
 }
 .list input{
+    margin-left: 30px;
     margin-top: 4px;
     padding: 30px;
     border: 10px solid #CFCFCF;
@@ -114,7 +116,7 @@ h2 {
     margin-bottom: 5px;
 }
   
-.register {
+.log {
     margin-top: 20px;
     margin-left: 500px;
 }
@@ -127,7 +129,7 @@ h2 {
 
 @media (max-width: 768px) {
     .image, .overlay {
-        height: 110vh;
+        height: 130vh;
     }
     .order {
         display: block;
@@ -143,12 +145,30 @@ h2 {
     .item {
         width: 400px;
     }
+    .log {
+        margin-left: 40px;
+    }
+    
 }
 @media (max-width: 500px) {
+    .list {
+        width: 90%; 
+        margin-left: 20px;
+    }
+    .list h2 {
+        text-align: center;
+    }
     .pro {
         display: block;
         padding: 10px;
         border: none;  
+    }
+    .list label {
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 60px;
     }
 
     .item {
@@ -170,6 +190,7 @@ h2 {
     }
     .summary {
         text-align: center;
+        margin-top: 30px;
     }
     .item img {
         width: 294px;

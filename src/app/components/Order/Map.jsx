@@ -8,14 +8,14 @@ const containerStyle = {
 };
 
 const farmerLocation = {
-    lat: 6.5244, // Replace with the actual latitude of the farmer's location
-    lng: 3.3792 // Replace with the actual longitude of the farmer's location
+    lat: 6.5244, 
+    lng: 3.3792 
 };
 
 export const MapContents = () => {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyCv5Glly8TImvfsW2sGRFUo_vhuxBl69vM" // Replace with your actual API key
+    googleMapsApiKey: "AIzaSyCv5Glly8TImvfsW2sGRFUo_vhuxBl69vM" 
   });
 
   const [map, setMap] = useState(null);
@@ -40,7 +40,6 @@ export const MapContents = () => {
   };
 
   const calculateDeliveryFee = () => {
-    // Use geocoding service to convert addresses to coordinates
     const geocoder = new window.google.maps.Geocoder();
     geocoder.geocode({ address: pickupAddress }, (pickupResults, pickupStatus) => {
       if (pickupStatus === 'OK' && pickupResults[0]) {
@@ -48,11 +47,9 @@ export const MapContents = () => {
         geocoder.geocode({ address: deliveryAddress }, (deliveryResults, deliveryStatus) => {
           if (deliveryStatus === 'OK' && deliveryResults[0]) {
             const deliveryLocation = deliveryResults[0].geometry.location;
-            // Calculate distance between pickup and delivery locations
             const distance = calculateDistance(pickupLocation, deliveryLocation);
-            // Sample calculation of delivery fee based on distance (you may adjust as needed)
-            const fee = distance * 0.1; // Assuming $0.1 per kilometer
-            setDeliveryFee(fee.toFixed(2)); // Set delivery fee with 2 decimal places
+            const fee = distance * 200; 
+            setDeliveryFee(fee.toFixed(2)); 
           } else {
             console.error('Geocode was not successful for the delivery address:', deliveryStatus);
           }
@@ -64,8 +61,7 @@ export const MapContents = () => {
   };
 
   const calculateDistance = (start, end) => {
-    // Sample calculation of distance (you may use a distance matrix service for more accurate results)
-    const R = 6371; // Radius of the Earth in kilometers
+    const R = 6371; 
     const dLat = deg2rad(end.lat() - start.lat());
     const dLng = deg2rad(end.lng() - start.lng());
     const a =
@@ -73,7 +69,7 @@ export const MapContents = () => {
       Math.cos(deg2rad(start.lat())) * Math.cos(deg2rad(end.lat())) *
       Math.sin(dLng / 2) * Math.sin(dLng / 2);
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    const distance = R * c; // Distance in kilometers
+    const distance = R * c; 
     return distance;
   };
 
@@ -109,7 +105,6 @@ export const MapContents = () => {
         onLoad={onLoad}
         onUnmount={onUnmount}
         >
-        {/* Child components, such as markers, info windows, etc. */}
         <div></div>
         </GoogleMap>
       </div>
@@ -117,4 +112,5 @@ export const MapContents = () => {
   ) : (
     <div>Loading...</div>
   );
+
 };

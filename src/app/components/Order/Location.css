@@ -16,6 +16,13 @@ h2 {
     font-weight: bold;
 }
 
+@media (max-width: 768px) {
+
+    .map {
+        background-color: blueviolet;
+        width: 100px;
+    }
+}
 @media (min-width: 768px) {
     .main {
         padding: 10px;

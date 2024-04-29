@@ -212,7 +212,7 @@ h6 {
 }
 @media (max-width: 500px) {
     .image, .overlay {
-        height: 140vh;
+        height: 150vh;
         overflow: hidden;
         background-repeat: repeat;
     }

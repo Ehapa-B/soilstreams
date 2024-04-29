@@ -27,20 +27,20 @@
         padding: 10px;
         display: block;
         gap: 10px;
+        margin-left: 10px;
+        margin-top: -20px;
     }
-    .text {  
-        width: 200px;
+    .text { 
+        margin-top: -30px;
+        width: 250px; 
         padding-right: 10px; 
-        margin-left: -170px;
+        margin-left: -160px;
     }
     .text input {
         padding: 12px 10px;
     }
     .map {
-        display: block;
-        margin-top: 30px;
-        margin-left: -10px;
-        width: 200px;
+        margin-top: 10px;
     }
     
 }
