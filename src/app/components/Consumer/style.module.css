@@ -7,12 +7,10 @@
 .section-container {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 111vh;
     margin-top: -70px;
     background-image: url(../../asset/icons/bg.svg); 
-    /* background-image: url("https://source.unsplash.com/random"); */
     overflow: hidden;
-
 }
 
 .farm {
@@ -68,7 +66,7 @@
     height: 0px;
     font-size: 14px;
     font-weight: bold;
-    width: 65%;
+    width: 98%;
     line-height: 0px;
 }
 

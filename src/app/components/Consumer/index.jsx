@@ -10,9 +10,9 @@ export const ConsumerPage = () => {
         <div>
          <LandingHeader />
           <section className={style['section-container']}>
-              <br />
-              <br />
               <div className={style.create}>
+                <br />
+                <br />
                  <h4>Create an Account</h4>
                  <div className={style['button-group']}>
                  <CustomButton className={style.front} onClick={()=>{}} >
@@ -48,15 +48,15 @@ export const ConsumerPage = () => {
                     </div>
                     <br />
                     <br />
-                   <CustomButton className={style.register} onClick={()=>{}} type='register'>
-                      Register
-                   </CustomButton>
-                   <br />
+                    <a href="/product">      
+                     <CustomButton className={style.register} onClick={()=>{}} type='register'>
+                       Register
+                    </CustomButton></a>
+                     <br />
                     <a className={style.already} href="/login">Already have an account? <span>Login</span> </a>
                 </form>
                </div>
               </div>
-
           </section>
           <Footer />
         </div>
