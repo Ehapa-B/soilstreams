@@ -21,14 +21,38 @@
     padding: 12px 60px;
     padding-left: 10px;
 }
+@media (min-width: 1440px) {
+    .puts .map {
+        margin-top: 30px;
+        margin-left: 100px;
+    }    
+}
 
+@media (max-width: 1028px) {
+    .puts .map {
+        margin-top: 30px;
+        margin-left: -130px;
+    }    
+}
+
+@media (max-width: 768px) {
+    .puts {
+        gap: 140px;
+        margin-left: 70px;
+        margin-top: -10px;
+    }
+    .puts .map {
+        margin-top: 30px;
+        margin-left: -130px;
+    }    
+}
 @media (max-width: 500px) {
     .puts {
         padding: 10px;
         display: block;
         gap: 10px;
-        margin-left: 10px;
-        margin-top: -20px;
+        margin-left: 40px;
+        margin-top: -10px;
     }
     .text { 
         margin-top: -30px;
@@ -39,8 +63,47 @@
     .text input {
         padding: 12px 10px;
     }
-    .map {
-        margin-top: 10px;
+
+    .puts .map {
+        margin-top: 20px;
+        margin-left: -180px;
+    }
+    
+}
+
+@media (max-width: 379px) {
+    .puts {
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+    .text { 
+        margin-top: -30px;
+        width: 250px; 
+        padding-right: 10px; 
+        margin-left: -160px;
+    }
+    .puts .map {
+        margin-top: 20px;
+        margin-left: -190px;
+    }
+    
+}
+
+@media (max-width: 323px) {
+    .puts {
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .text { 
+        margin-top: -30px;
+        width: 250px; 
+        padding-right: 10px; 
+        margin-left: -160px;
+    }
+
+    .puts .map {
+        margin-top: 20px;
+        margin-left: -180px;
     }
     
 }

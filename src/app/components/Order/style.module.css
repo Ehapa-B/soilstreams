@@ -36,6 +36,7 @@ h2 {
   
   
 .list {
+    padding-top: 10px;
     color: #fff;
     border: 1px solid #CFCFCF;
     width: 50%;
@@ -122,17 +123,21 @@ h2 {
 }
 
 @media (max-width: 1024px) {
+    .image, .overlay {
+        height: 100vh;
+    }
+    
     .item {
         gap: 16px;
     }
+
 }
 
 @media (max-width: 768px) {
     .image, .overlay {
-        height: 130vh;
+        height: 90vh;
     }
     .order {
-        display: block;
         padding: 10px;
         overflow: hidden;
     }
@@ -142,15 +147,29 @@ h2 {
     .list {
         border: none;
     }
+    .list input{
+        margin-left: 120px;
+    }
     .item {
         width: 400px;
     }
+    .summary {
+        text-align: left;
+    }
     .log {
-        margin-left: 40px;
+        margin-left: 90px;
     }
     
 }
 @media (max-width: 500px) {
+    .image, .overlay {
+        height: 135vh;
+    }
+    .order {
+        padding: 10px;
+        overflow: hidden;
+        display: block;
+    }
     .list {
         width: 90%; 
         margin-left: 20px;
@@ -179,8 +198,11 @@ h2 {
         width: 300px;
         justify-content: center;
     }
-    .list {
-        border: none;
+    .list {     
+      border: none;
+    }
+    .list input {
+        margin-left: 20px;
     }
     .product-details {
         text-align: center;
@@ -198,6 +220,13 @@ h2 {
         margin-right: 20px;
         justify-content: center;
     } 
-
+    .log {
+        margin-left: 80px;
+    }
 }
   
+@media (max-width: 379px) {
+    .log {
+        margin-left: 60px;
+    }
+}
