@@ -25,7 +25,6 @@ export const CartPage = () => {
     }
   };
 
-  // Calculate total cost based on the items in the cart
   const totalCost = cartItems.reduce((total, item) => total + (item.price * item.quantity), 0);
 
   return (
@@ -58,7 +57,6 @@ export const CartPage = () => {
         <div className={style.summary}>
           <h2>Cart Summary</h2>
           <p className={style.total}>Total Items: N{totalCost.toFixed(2)}</p>
-          {/* Display delivery and other summary details here */}
           {Summary.map((summary, index) => (
             <div key={index}>
               <span className={style.delivery}>{summary.delivery}</span>
@@ -67,9 +65,11 @@ export const CartPage = () => {
           ))}
           <br />
           <br />
-          <CustomButton className="register" onClick={() => ('signup')} type="read">
-             Proceed
-         </CustomButton>
+          <a href='/order'>
+           <CustomButton  className={style.rem} onClick={()=> ('')} type='register'>
+            Proceed
+           </CustomButton>
+        </a>
         </div>
         
         <br />

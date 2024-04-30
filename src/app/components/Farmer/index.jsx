@@ -91,15 +91,16 @@ export const FarmerPage = () => {
            </a></label>
           </div>
           <br />
-            <CustomButton className={style.registers} onClick={()=>{}} type='register'>
+          <a href='/login'>
+          <CustomButton  className={style.register} onClick={()=> ('')} type='register'>
             Register
-            </CustomButton>
+          </CustomButton>
+        </a>
            <br />
           <a className={style.already} href="/login">Already have an account? <span>Login</span> </a>
          </div>
               </div>
             </div>
-
           <Testimony />
           <Footer />
         </div>

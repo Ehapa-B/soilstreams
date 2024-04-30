@@ -25,11 +25,11 @@ export const aboutMenu = [
 export const usefulLinkMenu = [
     {
         name:"Support",
-        url: "mailto:blessingehapa@gmail.com"
+        url: "mailto:soilstreamsagro @gmail.com"
     },
     {
         name:"Partner",
-        url: "mailto:blessingehapa@gmail.com"
+        url: "mailto:soilstreamsagro @gmail.com"
     },
     {
         name:"Agents",
@@ -47,7 +47,7 @@ export const QuickLinkMenu = [
     },
     {
         name:"Delivery Services",
-        url: "#Delivery Services"
+        url: "mailto:soilstreamsagro @gmail.com"
     },
     {
         name:"Sign Up",

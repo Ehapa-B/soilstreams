@@ -23,6 +23,7 @@ import { CheckOutPage } from './app/components/CheckOut';
 import { CookiesPage } from './app/components/Cookies';
 import { PrivacyPage } from './app/components/Privacy';
 import { FaqPage } from './app/components/FAQ';
+import { WalletPage } from './app/components/Wallet';
 
 const router = createBrowserRouter([
   {
@@ -78,7 +79,7 @@ const router = createBrowserRouter([
     element: <AgentProfilePage />
   },
   {
-    path: 'success',
+    path: 'checkout',
     element: <CheckOutPage />
   },
   {
@@ -106,6 +107,11 @@ const router = createBrowserRouter([
     path: 'cart',
     element: <CartPage />
   },
+  {
+    path: 'fund',
+    element: <WalletPage />
+  },
+
   {
     path: 'privacy',
     element: <PrivacyPage />

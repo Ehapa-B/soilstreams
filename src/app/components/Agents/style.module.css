@@ -267,7 +267,7 @@ a span {
 }
 @media (max-width: 428px) {
     .image, .overlay {
-        height: 155vh;
+        height: 185vh;
     }
     .divider {
         width: 68%;

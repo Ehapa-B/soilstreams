@@ -59,9 +59,11 @@ export const OrderPage = () => {
           </div>
           <Location />
           <br />
-          <CustomButton className={style.log} onClick={() => ('signup')} type="red">
-              LogOut
+          <a href='/checkout'>
+          <CustomButton  className={style.log} onClick={()=> ('')} type='red'>
+            CheckOut
           </CustomButton>
+          </a>
              </div>
            </div>
 

@@ -126,16 +126,17 @@ h6 {
 }
 
 .space {
-    margin-left: 550px;
+    margin-left: 450px;
     align-items: center;
-    margin-top: -350px;
+    margin-top: -380px;
     color: #fff;
+    cursor: pointer;
     text-decoration: none;
 }
 
 @media (min-width: 1440px) {
     .image, .overlay {
-        height: 100vh;
+        height: 95vh;
         overflow: hidden;
     }
     .section-container {
@@ -169,7 +170,7 @@ h6 {
 }
 @media (max-width: 1026px) {
     .image, .overlay {
-        height: 100vh;
+        height: 110vh;
         overflow: hidden;
     }
     .section-container {
@@ -189,6 +190,7 @@ h6 {
     }
 
     .space {
+        margin-top: -350px;
         margin-left: 310px;
     }
 }
@@ -198,7 +200,7 @@ h6 {
         gap: 20px;
     }
     .image, .overlay {
-        height: 140vh;
+        height: 98vh;
     }
     .create {
         padding: 20px ; 
@@ -206,13 +208,14 @@ h6 {
         margin-left: -130px;
     }
     .space {
+        margin-top: -360px;
         margin-left: 230px;
         margin-bottom: 10px;
     }
 }
 @media (max-width: 500px) {
     .image, .overlay {
-        height: 150vh;
+        height: 170vh;
         overflow: hidden;
         background-repeat: repeat;
     }

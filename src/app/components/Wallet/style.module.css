@@ -1,0 +1,55 @@
+.wallet {
+    padding: 10px var(--dashboard-padding);
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    overflow: hidden;
+    gap: 50px;
+}
+
+h2{
+    text-align: center;
+}
+.total {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+
+.total img {
+    width: 100px;
+    margin-left: 0px;
+}
+
+.total span {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.line {
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+hr {
+    border: 1px solid #09871E;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 13px;
+}
+.money img {
+    width: 1000px;
+}
+
+@media (max-width: 768px) {
+    .wallet {
+        padding: 10px;
+        display: block;
+    }
+}

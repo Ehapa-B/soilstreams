@@ -46,9 +46,9 @@ export const ProfilePage = () => {
                        <h6>Ahmed Mustapha</h6>
                        <p>Kano State</p> 
                        <br />
-                       <a href="tel:+2348102845893"> <CustomButton onClick={()=>{}} type='register'>
+                       <CustomButton onClick={() => window.open('https://wa.link/pgp9tb')} type='register'>
                        Chat with Admin
-                     </CustomButton></a>
+                     </CustomButton>
                     </div>
               </div>
               <br />

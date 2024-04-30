@@ -9,16 +9,16 @@ export const Footer = () => {
         <footer className={style.footer}>
            <div className={style.menu}>
              <div className={style.menuItem}>
-                <a href='/home'>  <img src={White} /></a>        
+               <a href='/home'>  <img src={White} /></a>        
                  <div className={style.flex}>
-                     <Menu title="Useful Links" options={aboutMenu} />
+                     <Menu title="Useful links" options={aboutMenu} />
                      <Menu title="" options={usefulLinkMenu} />
                    </div>
                </div>
                <div className={style.icons}>
-                <BsTwitterX  className={style.svg} />
-                <FaInstagram  className={style.svg} />
-                <FaWhatsapp className={style.svg} />
+                <BsTwitterX  className={style.svg} onClick={() => window.open('https://twitter.com/BlessingEhapa')} />
+                <FaInstagram  className={style.svg}  onClick={() => window.open('https://www.instagram.com/soilstreams/?igsh=cHc0ZGMxdHh5MHZq')}  />
+                <FaWhatsapp className={style.svg} onClick={() => window.open('https://wa.link/pgp9tb')}/>
                 </div>
                <div className={style['legal-urls']}>
                   {
@@ -33,7 +33,7 @@ export const Footer = () => {
          </div>
          <p className={style.tech}>A tech4dev Production</p>
          <div className={style.app}>
-            <a href='tel:+2348102845893'><FaWhatsapp className={style.svg} /></a>
+            <FaWhatsapp className={style.svg} onClick={() => window.open('https://wa.link/pgp9tb')} />
          </div>        
         </footer>
     )

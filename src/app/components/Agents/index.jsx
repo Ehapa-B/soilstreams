@@ -89,16 +89,17 @@ export const AgentPage = () => {
              </a></label>
           </div>
            <br />
-
-            <CustomButton className={style.rem} onClick={()=>{}} type='register'>
-            Register
-            </CustomButton>
+           <a href='/login'>
+           <CustomButton  className={style.rem} onClick={()=> ('')} type='register'>
+             Register
+           </CustomButton>
+         </a>
            <br />
             <a className={style.already} href="/login">Already have an account? <span>Login</span> </a>
           </div>
               </div>
             </div>
-
+            <br />
           <Testimony />
           <Footer />
         </div>

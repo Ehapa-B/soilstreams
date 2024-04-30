@@ -49,14 +49,16 @@ export const ConsumerPage = () => {
                     <br />
                     <br />
                     <a href="/product">      
-                     <CustomButton className={style.register} onClick={()=>{}} type='register'>
+                      <CustomButton className={style.register} onClick={()=>{}} type='register'>
                        Register
-                    </CustomButton></a>
-                     <br />
+                     </CustomButton>
+                    </a>
+                   <br />
                     <a className={style.already} href="/login">Already have an account? <span>Login</span> </a>
                 </form>
                </div>
               </div>
+
           </section>
           <Footer />
         </div>

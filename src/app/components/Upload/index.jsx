@@ -2,15 +2,15 @@ import { ProductHeader } from "../ProductHeader/ProductHeader"
 import style from './style.module.css'
 import { CustomButton } from "../Button"
 import { Footer } from "../Footer"
-import { Items } from './data';
+import  Pawpaw  from "../../asset/images/mixed.jpg"
 
 
 export const UploadProduct = () => {
     return (
         <section>
             <ProductHeader />
+            <h2>Post Product</h2>
             <div className={style.containers}>
-              <h2>Post Product</h2>
               <div className={style.container}>
                <div className={style.form} >
                 <form className={style.farm}>
@@ -39,7 +39,9 @@ export const UploadProduct = () => {
             </div>
 
             </div>
-
+            <div className={style.mix}>
+              <img src={Pawpaw} />
+            </div>
             </div>
             <br />
             <Footer />

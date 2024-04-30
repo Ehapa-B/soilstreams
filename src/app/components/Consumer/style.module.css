@@ -7,10 +7,11 @@
 .section-container {
     display: flex;
     align-items: center;
-    height: 111vh;
+    height: 115vh;
     margin-top: -70px;
     background-image: url(../../asset/icons/bg.svg); 
     overflow: hidden;
+
 }
 
 .farm {
@@ -66,7 +67,8 @@
     height: 0px;
     font-size: 14px;
     font-weight: bold;
-    width: 98%;
+    width: 85%;
+    margin-left: 15px;
     line-height: 0px;
 }
 
@@ -119,11 +121,7 @@ input {
     color: goldenrod;
 }
 
-.register {
-    padding: 14px 100px;
-    padding-left: 70px; 
-    margin-left: 30px;
-}
+
 @media (min-width: 1440px) {
     .section-container {
         height: 85vh;

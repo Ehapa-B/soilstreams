@@ -39,7 +39,7 @@ export const CheckOutPage = () => {
               <br />
               <br />
               <a href='/home'>
-                <CustomButton  className='request' onClick={()=> ('signup')} type='read'>
+                <CustomButton  className='request' onClick={()=> ('')} type='read'>
                   Homepage 
                 </CustomButton>
               </a>
