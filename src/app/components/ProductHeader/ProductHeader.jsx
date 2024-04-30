@@ -56,12 +56,11 @@ const HeaderNavigation = (props) => {
       <li> 
         <a href="/order">Order</a>
       </li>
-      <li className='active'>
-       <a href='/cart'>
-         <img  src={Cart}/>
-       </a>
 
-      </li> 
+      <li> 
+        <a href="/fund">Funds</a>
+      </li>
+ 
       <li className='active'>
       <a href='/upload'>
         <CustomButton  className='register' onClick={()=> ('signup')} type='sell'>
