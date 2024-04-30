@@ -47,9 +47,35 @@ h5 {
     width: 1000px;
 }
 
+@media (min-width: 1440px) {
+    hr{
+        width: 1000px;
+    }
+}
+@media (max-width: 1024px) {
+    .money img {
+        width: 700px;
+    }
+}
+
 @media (max-width: 768px) {
+    .money img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
     .wallet {
-        padding: 10px;
+        padding: 30px;
         display: block;
+        align-items: center;
+    }
+    
+    hr {
+        width: 220px;
+    }
+
+    .money img {
+        width: 260px;
     }
 }

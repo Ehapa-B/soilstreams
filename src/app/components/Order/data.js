@@ -16,22 +16,20 @@ export const Carts = [
   },
 ];
 
-// Calculate the total items in the cart
+
 const totalItems = Carts.reduce((total, item) => total + parseInt(item.text), 0);
 
-// Calculate the total cost of items in the cart
+
 const totalCostOfItems = Carts.reduce((total, item) => total + (item.price * parseInt(item.text)), 0);
 
-// Calculate the delivery cost (for demonstration purposes, I'm setting it to a constant value)
 const deliveryCost = 20000;
 
-// Calculate the total cost by adding the delivery cost to the total cost of items
 const totalCost = totalCostOfItems + deliveryCost;
 
 export const Summary = [
   {
-    total: `Total Items: ${totalItems}`, // Display total items in the summary
-    delivery: `Delivery: N ${deliveryCost.toLocaleString()}`, // Display delivery cost
-    cost: `Total Cost: N ${totalCost.toLocaleString()}`, // Display total cost
+    total: `Total Items: ${totalItems}`, 
+    delivery: `Delivery: N ${deliveryCost.toLocaleString()}`, 
+    cost: `Total Cost: N ${totalCost.toLocaleString()}`, 
   },
 ];

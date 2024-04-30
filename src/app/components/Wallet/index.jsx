@@ -2,6 +2,7 @@ import { OrderHeader } from "../OrderHeader/OrderHeader"
 import Card from "../../asset/images/master.svg"
 import Money from "../../asset/images/money.svg"
 import style from "./style.module.css"
+import { Footer } from "../Footer"
 
 export const WalletPage = () => {
     return (
@@ -33,8 +34,7 @@ export const WalletPage = () => {
              </div>
              <br />
            </div>
-           <br />
-           <br/>
+           <Footer />
         </section>
     )
 }
